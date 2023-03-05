@@ -24,11 +24,14 @@ namespace Project.DAL.ContextClasses
             modelBuilder.Configurations.Add(new IssueMap());
             modelBuilder.Configurations.Add(new PreOrderMap());
             modelBuilder.Configurations.Add(new SaloonMap());
+            modelBuilder.Configurations.Add(new EmployeeMap());
         }
         public DbSet<PreOrder>PreOrders { get; set; }
         public DbSet<Customer>Customers { get; set; }
         public DbSet<Extra>Extras { get; set; }
         public DbSet<Issue>Issues { get; set; }
         public DbSet<Saloon>Saloons { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+
     }
 }

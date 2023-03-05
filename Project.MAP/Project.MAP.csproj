@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Options\BaseMap.cs" />
     <Compile Include="Options\CustomerMap.cs" />
+    <Compile Include="Options\EmployeeMap.cs" />
     <Compile Include="Options\ExtraMap.cs" />
     <Compile Include="Options\ExtraPreOrderMap.cs" />
     <Compile Include="Options\IssueMap.cs" />
