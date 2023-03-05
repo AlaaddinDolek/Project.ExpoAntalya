@@ -54,9 +54,13 @@
     <Compile Include="Options\BaseMap.cs" />
     <Compile Include="Options\CustomerMap.cs" />
     <Compile Include="Options\ExtraMap.cs" />
+    <Compile Include="Options\ExtraPreOrderMap.cs" />
     <Compile Include="Options\IssueMap.cs" />
+    <Compile Include="Options\IssueStandMap.cs" />
     <Compile Include="Options\OrderMap.cs" />
+    <Compile Include="Options\PreOrderMap.cs" />
     <Compile Include="Options\SaloonMap.cs" />
+    <Compile Include="Options\StandMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

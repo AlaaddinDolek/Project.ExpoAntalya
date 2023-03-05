@@ -24,6 +24,6 @@ namespace Project.ENTITIES.Models
 
         //Relational Properties
 
-
+        public virtual List<IssueStand> IssueStands { get; set; }
     }
 }

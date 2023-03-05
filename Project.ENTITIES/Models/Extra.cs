@@ -14,6 +14,8 @@ namespace Project.ENTITIES.Models
 
         //Relational Properties
 
-       
+        public virtual List<ExtraPreOrder> ExtraPreOrder { get; set; }
+
+
     }
 }

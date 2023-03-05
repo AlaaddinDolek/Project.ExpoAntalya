@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace Project.MAP.Options
 {
-    public class OrderMap:BaseMap<Order>
+    public class StandMap:BaseMap<Stand>
     {
-        public OrderMap()
-        {
-            HasOptional(x => x.Customer).WithRequired(x => x.Order);
-        }
+        public StandMap() { }
     }
 }

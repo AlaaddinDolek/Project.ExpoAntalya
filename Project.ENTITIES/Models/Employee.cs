@@ -6,18 +6,13 @@ using System.Threading.Tasks;
 
 namespace Project.ENTITIES.Models
 {
-    public class Customer:BaseEntity
+    public class Employee:BaseEntity
     {
-
-        public string CompanyName { get; set; }
-
-        public string PhoneNo { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
 
         //Relational Properties
 
-        public virtual Order Order { get; set; }
-
-
-
+        public virtual List<Order> Order { get; set; }
     }
 }

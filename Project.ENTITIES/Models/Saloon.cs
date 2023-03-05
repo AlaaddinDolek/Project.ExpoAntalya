@@ -26,6 +26,7 @@ namespace Project.ENTITIES.Models
         }
         //Relational Properties
 
+        public virtual List<Stand> Stands { get; set; }
 
     }
 }
