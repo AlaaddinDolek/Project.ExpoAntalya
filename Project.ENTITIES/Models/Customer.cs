@@ -13,6 +13,10 @@ namespace Project.ENTITIES.Models
 
         public string PhoneNo { get; set; }
 
+        //Relational Properties
+
+
+
 
 
     }

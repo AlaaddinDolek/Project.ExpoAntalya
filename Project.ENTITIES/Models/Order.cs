@@ -57,7 +57,12 @@ namespace Project.ENTITIES.Models
             {
                 UnitPrice += item.UnitPrice;
             }
-    
+
+
+            //Relational Properties
+
+
+
         }
     }
 }

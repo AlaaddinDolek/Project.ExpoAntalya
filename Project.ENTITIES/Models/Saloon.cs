@@ -24,5 +24,8 @@ namespace Project.ENTITIES.Models
         {
             return $"Açıklaması => {Description} => Fiyatı : {UnitPrice:C2}";
         }
+        //Relational Properties
+
+
     }
 }

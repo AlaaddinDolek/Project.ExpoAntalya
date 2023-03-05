@@ -19,6 +19,11 @@ namespace Project.ENTITIES.Models
                 return $"{IssueType}";
             }
             return $"{IssueType},{Description}";
+
         }
+
+        //Relational Properties
+
+
     }
 }
